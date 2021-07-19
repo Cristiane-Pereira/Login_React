@@ -1,0 +1,59 @@
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+section {
+    height: 100%;
+    width: 50%;
+}
+.login {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .card-form h1 {
+    margin-bottom: 32px;
+}
+.login .card-form input {
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    padding-left: 16px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #b8b8b8
+}
+.login .card-form button {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 48px;
+    border-radius: 6px;
+    background: linear-gradient(to right, rgb(106, 48, 147), rgb(160, 68, 255));
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    transform: 0.2s;
+}
+
+.login .card-form button:hover {
+    background: linear-gradient(to right, rgb(96, 40, 136), rgb(149, 52, 246));
+    opacity: 1;
+}
+.login .card-form .link {
+    margin-top: 8px;
+}
+.cadastro {
+    background: linear-gradient(to right, rgb(106, 48, 147), rgb(160, 68, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cadastro .image {
+    background-image: url('../../assets/login.svg');
+    width: 80%;
+    height: 80%;
+}
